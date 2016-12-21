@@ -10,13 +10,8 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="FP_to_DSC" Type="Folder">
-			<Item Name="CF_FP_to_DSC.vi" Type="VI" URL="../FP_to_DSC/CF_FP_to_DSC.vi"/>
-			<Item Name="FP_to_DSC.vi" Type="VI" URL="../FP_to_DSC/FP_to_DSC.vi"/>
-			<Item Name="MNK_FP_to_DSC.vi" Type="VI" URL="../FP_to_DSC/MNK_FP_to_DSC.vi"/>
-			<Item Name="NetVarWrite_dbl.vi" Type="VI" URL="../FP_to_DSC/NetVarWrite_dbl.vi"/>
-			<Item Name="NetVarWrite_str.vi" Type="VI" URL="../FP_to_DSC/NetVarWrite_str.vi"/>
-			<Item Name="parse_FP_mode.vi" Type="VI" URL="../FP_to_DSC/parse_FP_mode.vi"/>
+		<Item Name="FP_to_DSC" Type="Folder" URL="../FP_to_DSC">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Lib" Type="Folder">
 			<Item Name="Lib" Type="Folder">
@@ -174,17 +169,79 @@
 			</Item>
 		</Item>
 		<Item Name="FrontPanel.vi" Type="VI" URL="../FrontPanel.vi"/>
+		<Item Name="nisyscfg.lvlib" Type="Library" URL="/&lt;vilib&gt;/nisyscfg/nisyscfg.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="user.lib" Type="Folder">
+				<Item Name="To Proper Case (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/To Proper Case (String)__ogtk.vi"/>
+			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
+				<Item Name="Add File to Zip.vi" Type="VI" URL="/&lt;vilib&gt;/zip/Add File to Zip.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
+				<Item Name="Close Zip File.vi" Type="VI" URL="/&lt;vilib&gt;/zip/Close Zip File.vi"/>
+				<Item Name="Compare Two Paths.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Compare Two Paths.vi"/>
+				<Item Name="ConvertBrokenDeps10.vi" Type="VI" URL="/&lt;vilib&gt;/nisyscfg/ConvertBrokenDeps10.vi"/>
+				<Item Name="ConvertCompsNew10.vi" Type="VI" URL="/&lt;vilib&gt;/nisyscfg/ConvertCompsNew10.vi"/>
+				<Item Name="Create Directory Recursive.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create Directory Recursive.vi"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
+				<Item Name="Generate Temporary File Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Generate Temporary File Path.vi"/>
+				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
+				<Item Name="New Zip File.vi" Type="VI" URL="/&lt;vilib&gt;/zip/New Zip File.vi"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="NI_Unzip.lvlib" Type="Library" URL="/&lt;vilib&gt;/zip/NI_Unzip.lvlib"/>
+				<Item Name="Path To Command Line String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Path To Command Line String.vi"/>
+				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
+				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
+				<Item Name="Relative Path To Platform Independent String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Relative Path To Platform Independent String.vi"/>
+				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
+				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
+				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
+				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="BP query NCP5B.vi" Type="VI" URL="../Lib/Lib.llb/BP query NCP5B.vi"/>
+			<Item Name="BP Query REC.vi" Type="VI" URL="../Lib/Lib.llb/BP Query REC.vi"/>
+			<Item Name="BP Query Turbo.vi" Type="VI" URL="../Lib/Lib.llb/BP Query Turbo.vi"/>
+			<Item Name="BP Set NCP5B.vi" Type="VI" URL="../Lib/Lib.llb/BP Set NCP5B.vi"/>
+			<Item Name="BP Set REC.vi" Type="VI" URL="../Lib/Lib.llb/BP Set REC.vi"/>
+			<Item Name="BP Set Turbo.vi" Type="VI" URL="../Lib/Lib.llb/BP Set Turbo.vi"/>
+			<Item Name="Build Path - Traditional__ogtk.vi" Type="VI" URL="../Lib/Lib.llb/Build Path - Traditional__ogtk.vi"/>
+			<Item Name="Create Custom Error Handler.vi" Type="VI" URL="../Lib/Lib.llb/Create Custom Error Handler.vi"/>
+			<Item Name="Create Dir if Non-Existant__ogtk.vi" Type="VI" URL="../Lib/Lib.llb/Create Dir if Non-Existant__ogtk.vi"/>
+			<Item Name="Current VIs Reference__ogtk.vi" Type="VI" URL="../Lib/Lib.llb/Current VIs Reference__ogtk.vi"/>
+			<Item Name="Empty 2D Array (String)__ogtk.vi" Type="VI" URL="../Lib/Lib.llb/Empty 2D Array (String)__ogtk.vi"/>
+			<Item Name="File Date.vi" Type="VI" URL="../Lib/Lib.llb/File Date.vi"/>
+			<Item Name="Find FPO by Name.vi" Type="VI" URL="../Lib/Lib.llb/Find FPO by Name.vi"/>
+			<Item Name="Format header.vi" Type="VI" URL="../Lib/Lib.llb/Format header.vi"/>
+			<Item Name="FP check parameters error.vi" Type="VI" URL="../Lib/Lib.llb/FP check parameters error.vi"/>
+			<Item Name="FP decode mode &amp; alarm.vi" Type="VI" URL="../Lib/Lib.llb/FP decode mode &amp; alarm.vi"/>
+			<Item Name="FP encode still pressure.vi" Type="VI" URL="../Lib/Lib.llb/FP encode still pressure.vi"/>
+			<Item Name="FP status from bits to numeric.vi" Type="VI" URL="../Lib/Lib.llb/FP status from bits to numeric.vi"/>
+			<Item Name="Get Array Element Default Data__ogtk.vi" Type="VI" URL="../Lib/Lib.llb/Get Array Element Default Data__ogtk.vi"/>
+			<Item Name="Get Array Element TDEnum__ogtk.vi" Type="VI" URL="../Lib/support/Get Array Element TDEnum__ogtk.vi"/>
+			<Item Name="Get GHS version and type.vi" Type="VI" URL="../Lib/Lib.llb/Get GHS version and type.vi"/>
+			<Item Name="Get Refnum Type Enum from Data__ogtk.vi" Type="VI" URL="../Lib/Lib.llb/Get Refnum Type Enum from Data__ogtk.vi"/>
+			<Item Name="Get Refnum Type Enum from TD__ogtk.vi" Type="VI" URL="../Lib/Lib.llb/Get Refnum Type Enum from TD__ogtk.vi"/>
+			<Item Name="Get TDEnum from Data__ogtk.vi" Type="VI" URL="../Lib/support/Get TDEnum from Data__ogtk.vi"/>
+			<Item Name="Get Waveform Type Enum from Data__ogtk.vi" Type="VI" URL="../Lib/Lib.llb/Get Waveform Type Enum from Data__ogtk.vi"/>
+			<Item Name="Get Waveform Type Enum from TD__ogtk.vi" Type="VI" URL="../Lib/Lib.llb/Get Waveform Type Enum from TD__ogtk.vi"/>
+			<Item Name="GetFrontPanelControls.vi" Type="VI" URL="../Lib/Lib.llb/GetFrontPanelControls.vi"/>
+			<Item Name="MGI Clear Error.vi" Type="VI" URL="../Lib/Lib.llb/MGI Clear Error.vi"/>
+			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Periodic Trigger__ogtk.vi" Type="VI" URL="../Lib/Lib.llb/Periodic Trigger__ogtk.vi"/>
+			<Item Name="Push2VI.vi" Type="VI" URL="../Lib/Lib.llb/Push2VI.vi"/>
+			<Item Name="PushArray2VI.vi" Type="VI" URL="../Lib/Lib.llb/PushArray2VI.vi"/>
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Time Elapsed.vi" Type="VI" URL="../Lib/Lib.llb/Time Elapsed.vi"/>
+			<Item Name="VISA Check port.vi" Type="VI" URL="../Lib/Lib.llb/VISA Check port.vi"/>
+			<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="../Lib/Lib.llb/Wait (ms)__ogtk.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FP" Type="EXE">
