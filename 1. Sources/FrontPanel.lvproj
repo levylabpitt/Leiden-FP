@@ -169,11 +169,11 @@
 		<Item Name="nisyscfg.lvlib" Type="Library" URL="/&lt;vilib&gt;/nisyscfg/nisyscfg.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
-				<Item Name="CF_FP_to_DSC.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Leiden Tools/FP_to_DSC/subVIs/CF_FP_to_DSC.vi"/>
-				<Item Name="FP_to_DSC.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Leiden Tools/FP_to_DSC/FP_to_DSC.vi"/>
+				<Item Name="CF_FP_to_DSC.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Leiden Tools/FP_to_DSC_subVIs/CF_FP_to_DSC.vi"/>
+				<Item Name="FP_to_DSC.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Leiden Tools/FP_to_DSC.vi"/>
 				<Item Name="GetLocalComputerName.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Leiden Tools/subVIs/GetLocalComputerName.vi"/>
-				<Item Name="MNK_FP_to_DSC.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Leiden Tools/FP_to_DSC/subVIs/MNK_FP_to_DSC.vi"/>
-				<Item Name="parse_FP_mode.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Leiden Tools/FP_to_DSC/subVIs/parse_FP_mode.vi"/>
+				<Item Name="MNK_FP_to_DSC.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Leiden Tools/FP_to_DSC_subVIs/MNK_FP_to_DSC.vi"/>
+				<Item Name="parse_FP_mode.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Leiden Tools/FP_to_DSC_subVIs/parse_FP_mode.vi"/>
 				<Item Name="ParseLeidenComputerNames.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Leiden Tools/subVIs/ParseLeidenComputerNames.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
