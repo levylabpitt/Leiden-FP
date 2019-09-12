@@ -12,81 +12,11 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Lib" Type="Folder">
-			<Item Name="AppendData.vi" Type="VI" URL="../Lib/Lib.llb/AppendData.vi"/>
-			<Item Name="AppendData1.vi" Type="VI" URL="../Lib/Lib.llb/AppendData1.vi"/>
-			<Item Name="BP Get ID.vi" Type="VI" URL="../Lib/Lib.llb/BP Get ID.vi"/>
-			<Item Name="BP Initialize.vi" Type="VI" URL="../Lib/Lib.llb/BP Initialize.vi"/>
-			<Item Name="BP Query Adc.vi" Type="VI" URL="../Lib/Lib.llb/BP Query Adc.vi"/>
-			<Item Name="BP Query KeyStatus.vi" Type="VI" URL="../Lib/Lib.llb/BP Query KeyStatus.vi"/>
-			<Item Name="BP query NCP5.vi" Type="VI" URL="../Lib/Lib.llb/BP query NCP5.vi"/>
-			<Item Name="BP query NCP5B.vi" Type="VI" URL="../Lib/Lib.llb/BP query NCP5B.vi"/>
-			<Item Name="BP query P5.vi" Type="VI" URL="../Lib/Lib.llb/BP query P5.vi"/>
-			<Item Name="BP Query REC.vi" Type="VI" URL="../Lib/Lib.llb/BP Query REC.vi"/>
-			<Item Name="BP query settings.vi" Type="VI" URL="../Lib/Lib.llb/BP query settings.vi"/>
-			<Item Name="BP Query Status.vi" Type="VI" URL="../Lib/Lib.llb/BP Query Status.vi"/>
-			<Item Name="BP Query Turbo.vi" Type="VI" URL="../Lib/Lib.llb/BP Query Turbo.vi"/>
-			<Item Name="BP Scale Adc-NEW PANEL.vi" Type="VI" URL="../Lib/Lib.llb/BP Scale Adc-NEW PANEL.vi"/>
-			<Item Name="BP Send Command.vi" Type="VI" URL="../Lib/Lib.llb/BP Send Command.vi"/>
-			<Item Name="BP Send Data.vi" Type="VI" URL="../Lib/Lib.llb/BP Send Data.vi"/>
-			<Item Name="BP Send Values.vi" Type="VI" URL="../Lib/Lib.llb/BP Send Values.vi"/>
-			<Item Name="BP Serial Port Receive Message.vi" Type="VI" URL="../Lib/Lib.llb/BP Serial Port Receive Message.vi"/>
-			<Item Name="BP Serial Port Send Message.vi" Type="VI" URL="../Lib/Lib.llb/BP Serial Port Send Message.vi"/>
-			<Item Name="BP Set Config.vi" Type="VI" URL="../Lib/Lib.llb/BP Set Config.vi"/>
-			<Item Name="BP Set NCP5.vi" Type="VI" URL="../Lib/Lib.llb/BP Set NCP5.vi"/>
-			<Item Name="BP Set NCP5B.vi" Type="VI" URL="../Lib/Lib.llb/BP Set NCP5B.vi"/>
-			<Item Name="BP Set P5.vi" Type="VI" URL="../Lib/Lib.llb/BP Set P5.vi"/>
-			<Item Name="BP Set REC.vi" Type="VI" URL="../Lib/Lib.llb/BP Set REC.vi"/>
-			<Item Name="BP Set Turbo.vi" Type="VI" URL="../Lib/Lib.llb/BP Set Turbo.vi"/>
-			<Item Name="BP settings.vi" Type="VI" URL="../Lib/Lib.llb/BP settings.vi"/>
-			<Item Name="BP togglekey.vi" Type="VI" URL="../Lib/Lib.llb/BP togglekey.vi"/>
-			<Item Name="BP Write &amp; Read Ack.vi" Type="VI" URL="../Lib/Lib.llb/BP Write &amp; Read Ack.vi"/>
-			<Item Name="Combine Data 4 logging.vi" Type="VI" URL="../Lib/Lib.llb/Combine Data 4 logging.vi"/>
-			<Item Name="Create Custom Error Handler.vi" Type="VI" URL="../Lib/Lib.llb/Create Custom Error Handler.vi"/>
-			<Item Name="Disable on error.vi" Type="VI" URL="../Lib/Lib.llb/Disable on error.vi"/>
-			<Item Name="ErrCodeStatusLkup.vi" Type="VI" URL="../Lib/Lib.llb/ErrCodeStatusLkup.vi"/>
-			<Item Name="File Date.vi" Type="VI" URL="../Lib/Lib.llb/File Date.vi"/>
-			<Item Name="Find FPO by Name.vi" Type="VI" URL="../Lib/Lib.llb/Find FPO by Name.vi"/>
-			<Item Name="Format header.vi" Type="VI" URL="../Lib/Lib.llb/Format header.vi"/>
-			<Item Name="formIEC.vi" Type="VI" URL="../Lib/Lib.llb/formIEC.vi"/>
-			<Item Name="FP check parameters error.vi" Type="VI" URL="../Lib/Lib.llb/FP check parameters error.vi"/>
-			<Item Name="FP decode mode &amp; alarm.vi" Type="VI" URL="../Lib/Lib.llb/FP decode mode &amp; alarm.vi"/>
-			<Item Name="FP encode still pressure.vi" Type="VI" URL="../Lib/Lib.llb/FP encode still pressure.vi"/>
-			<Item Name="FP Set Binking Controls.vi" Type="VI" URL="../Lib/Lib.llb/FP Set Binking Controls.vi"/>
-			<Item Name="FP status from bits to numeric.vi" Type="VI" URL="../Lib/Lib.llb/FP status from bits to numeric.vi"/>
-			<Item Name="GeneratePaths.vi" Type="VI" URL="../Lib/Lib.llb/GeneratePaths.vi"/>
-			<Item Name="Get GHS version and type.vi" Type="VI" URL="../Lib/Lib.llb/Get GHS version and type.vi"/>
-			<Item Name="GetFrontPanelControls.vi" Type="VI" URL="../Lib/Lib.llb/GetFrontPanelControls.vi"/>
-			<Item Name="IECSingle.vi" Type="VI" URL="../Lib/Lib.llb/IECSingle.vi"/>
-			<Item Name="Maxi Gauge suppress warning.vi" Type="VI" URL="../Lib/Lib.llb/Maxi Gauge suppress warning.vi"/>
-			<Item Name="Maxi Gauge-Driver Core New.vi" Type="VI" URL="../Lib/Lib.llb/Maxi Gauge-Driver Core New.vi"/>
-			<Item Name="MG collect pressureinfo.vi" Type="VI" URL="../Lib/Lib.llb/MG collect pressureinfo.vi"/>
-			<Item Name="MG Get Channels Labels.vi" Type="VI" URL="../Lib/Lib.llb/MG Get Channels Labels.vi"/>
-			<Item Name="MG get errorstatus.vi" Type="VI" URL="../Lib/Lib.llb/MG get errorstatus.vi"/>
-			<Item Name="MG get pressurestring.vi" Type="VI" URL="../Lib/Lib.llb/MG get pressurestring.vi"/>
-			<Item Name="MG initialize.vi" Type="VI" URL="../Lib/Lib.llb/MG initialize.vi"/>
-			<Item Name="MG query error.vi" Type="VI" URL="../Lib/Lib.llb/MG query error.vi"/>
-			<Item Name="MGI Clear Error.vi" Type="VI" URL="../Lib/Lib.llb/MGI Clear Error.vi"/>
-			<Item Name="MGI Milliseconds Since Last Reset.vi" Type="VI" URL="../Lib/Lib.llb/MGI Milliseconds Since Last Reset.vi"/>
-			<Item Name="MGI Wait (U32).vi" Type="VI" URL="../Lib/Lib.llb/MGI Wait (U32).vi"/>
-			<Item Name="MultiRPlot_Select1.vi" Type="VI" URL="../Lib/Lib.llb/MultiRPlot_Select1.vi"/>
-			<Item Name="Pfeiffer Vacuum.lvlib" Type="Library" URL="../Lib/Lib.llb/Pfeiffer Vacuum.lvlib"/>
-			<Item Name="PT Parse Response.vi" Type="VI" URL="../Lib/Lib.llb/PT Parse Response.vi"/>
-			<Item Name="PT Read Status.vi" Type="VI" URL="../Lib/Lib.llb/PT Read Status.vi"/>
-			<Item Name="PT Send Command.vi" Type="VI" URL="../Lib/Lib.llb/PT Send Command.vi"/>
-			<Item Name="PT start.vi" Type="VI" URL="../Lib/Lib.llb/PT start.vi"/>
-			<Item Name="Push2VI.vi" Type="VI" URL="../Lib/Lib.llb/Push2VI.vi"/>
-			<Item Name="PushArray2VI.vi" Type="VI" URL="../Lib/Lib.llb/PushArray2VI.vi"/>
-			<Item Name="Running average.vi" Type="VI" URL="../Lib/Lib.llb/Running average.vi"/>
-			<Item Name="Save Load Settings to File by Ref with path.vi" Type="VI" URL="../Lib/Lib.llb/Save Load Settings to File by Ref with path.vi"/>
-			<Item Name="SMDP_SVR_REENTRANT.vi" Type="VI" URL="../Lib/Lib.llb/SMDP_SVR_REENTRANT.vi"/>
-			<Item Name="SMDP_SVR_WRAP.vi" Type="VI" URL="../Lib/Lib.llb/SMDP_SVR_WRAP.vi"/>
-			<Item Name="SMDPWrap.vi" Type="VI" URL="../Lib/Lib.llb/SMDPWrap.vi"/>
-			<Item Name="Time Elapsed time.vi" Type="VI" URL="../Lib/Lib.llb/Time Elapsed time.vi"/>
-			<Item Name="Time Elapsed.vi" Type="VI" URL="../Lib/Lib.llb/Time Elapsed.vi"/>
-			<Item Name="UnpackIEC.vi" Type="VI" URL="../Lib/Lib.llb/UnpackIEC.vi"/>
-			<Item Name="VISA Check port.vi" Type="VI" URL="../Lib/Lib.llb/VISA Check port.vi"/>
-			<Item Name="VISA to RS232 Port Nr.vi" Type="VI" URL="../Lib/Lib.llb/VISA to RS232 Port Nr.vi"/>
+		<Item Name="Data" Type="Folder" URL="../Data">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="Lib" Type="Folder" URL="../Lib">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="DR FrontPanel.lvlib" Type="Library" URL="../DR FrontPanel.lvlib"/>
 		<Item Name="FP.ico" Type="Document" URL="../FP.ico"/>
@@ -274,6 +204,8 @@
 				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 			</Item>
+			<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="../Lib/Lib.llb/Build Error Cluster__ogtk.vi"/>
+			<Item Name="Get Header from TD__ogtk.vi" Type="VI" URL="../Lib/Lib.llb/Get Header from TD__ogtk.vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -286,6 +218,7 @@
 			<Item Name="System.Management" Type="Document" URL="System.Management">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Variant to Header Info__ogtk.vi" Type="VI" URL="../Lib/Lib.llb/Variant to Header Info__ogtk.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FP" Type="EXE">
@@ -303,7 +236,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{17B63870-595A-47C5-99D0-CDE5513E2F9A}</Property>
-				<Property Name="Bld_version.build" Type="Int">17</Property>
+				<Property Name="Bld_version.build" Type="Int">18</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Destination[0].destName" Type="Str">FP.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../2. Executable/FP.exe</Property>
@@ -313,13 +246,19 @@
 				<Property Name="Destination[1].path" Type="Path">../2. Executable/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/FP.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{FB9AD81D-9A1D-41BF-B8EB-34A11319411E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{AD19DEF3-A2FD-4E47-802B-C166E1256C4E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/FrontPanel.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Data</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">FP</Property>
 				<Property Name="TgtF_internalName" Type="Str">FP</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 </Property>
