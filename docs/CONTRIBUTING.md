@@ -50,9 +50,19 @@ Leiden-FP
 1. Get new source files from Leiden Cryogenics
 2. Unzip source file and find the "1. Sources" folder
 3. *Replace* the "1. Sources" folder in "\Project\src\"
+
+![](images/FP-Project-Explorer-0.png)
+
 4. Open a backup copy of FrontPanel-X-backup.vi to see how to modify the new FrontPanel.vi (See screenshots below)
+
+![](images/FP-Project-Explorer-1.png)
+![](images/FP-Block-Diagram.png)
+
 5. Save all
 6. Increment version number and build the Application under "Build Specifications" in the Project Explorer
 7. Increment version number and build the Installer under "Build Specifications" in the Project Explorer
+
+![](images/FP-Project-Explorer-2.png)
+
 8. Run "FP Post Build.vi" with version numbers matching the builds above
 
