@@ -16,6 +16,7 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="build support" Type="Folder">
+			<Item Name="FP Post Build.vi" Type="VI" URL="../../build support/FP Post Build.vi"/>
 			<Item Name="PostBuildSupport (2013).lvclass" Type="LVClass" URL="../../build support/PostBuildSupport (saved for 2013)/PostBuildSupport (2013).lvclass"/>
 		</Item>
 		<Item Name="Leiden to DSC" Type="Folder">
