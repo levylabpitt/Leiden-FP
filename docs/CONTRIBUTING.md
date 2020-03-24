@@ -53,7 +53,7 @@ Leiden-FP
 
 ![](images/FP-Copy-1-Sources.gif)
 
-4. Open a backup copy of FrontPanel-X-backup.vi to see how to modify the new FrontPanel.vi (See screenshots below)
+4. Open a backup copy of FrontPanel-X-backup.vi to see how to modify the new FrontPanel.vi
 
 ![](images/FP-Project-Explorer-1.png)
 ![](images/FP-Block-Diagram.png)
