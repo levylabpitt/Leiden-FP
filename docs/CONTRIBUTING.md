@@ -51,7 +51,7 @@ Leiden-FP
 2. Unzip source file and find the "1. Sources" folder
 3. *Replace* the "1. Sources" folder in "\Project\src\"
 
-![](http://g.recordit.co/GnGxrAiKTN.gif)
+![](images/FP-Copy-1-Sources.gif)
 
 4. Open a backup copy of FrontPanel-X-backup.vi to see how to modify the new FrontPanel.vi (See screenshots below)
 
@@ -65,4 +65,6 @@ Leiden-FP
 ![](images/FP-Project-Explorer-2.png)
 
 8. Run "FP Post Build.vi" with version numbers matching the builds above
+
+![](images/FP-Post-Build.gif)
 
