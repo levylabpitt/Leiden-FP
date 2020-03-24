@@ -88,13 +88,13 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="FP Application" Type="EXE">
+			<Item Name="FrontPanel Application" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{7FCFEA13-6AFA-4DD7-B12F-0E1110364290}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{2623CA02-1151-4B54-98E3-5D542AA39162}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{D828E034-1040-4AC5-B1D9-49AB6CE23D6F}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">FP Application</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">FrontPanel Application</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
@@ -105,31 +105,31 @@
 				<Property Name="Bld_version.build" Type="Int">18</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Bld_version.minor" Type="Int">50</Property>
-				<Property Name="Bld_version.patch" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">FP.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/Application/FP Application.exe</Property>
+				<Property Name="Bld_version.patch" Type="Int">3</Property>
+				<Property Name="Destination[0].destName" Type="Str">FrontPanel.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/Application/FrontPanel Application.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/Application/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref"></Property>
-				<Property Name="Source[0].itemID" Type="Str">{A2E4B47D-511B-486C-BE0C-8E7442C2FC97}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/src/1. Sources/FP.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{261996BE-0A3A-41FF-AF8F-87101CE2C712}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref"></Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/src/1. Sources/FrontPanel.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">Leiden Cryogenics</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">FP Application</Property>
-				<Property Name="TgtF_internalName" Type="Str">FP Application</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">FrontPanel Application</Property>
+				<Property Name="TgtF_internalName" Type="Str">FrontPanel Application</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 </Property>
-				<Property Name="TgtF_productName" Type="Str">FP Application</Property>
+				<Property Name="TgtF_productName" Type="Str">FrontPanel Application</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{E83A550C-BFD3-4B9C-BE18-9D2EBAB68107}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">FP.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">FrontPanel.exe</Property>
 			</Item>
-			<Item Name="FP Installer" Type="Installer">
+			<Item Name="FrontPanel Installer" Type="Installer">
 				<Property Name="Destination[0].name" Type="Str">Leiden Cryogenics</Property>
 				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
 				<Property Name="Destination[0].tag" Type="Str">{72ECE862-B528-4741-831A-AA7F999A8CCA}</Property>
@@ -147,20 +147,54 @@
 				<Property Name="DistPart[1].productID" Type="Str">{F9B5B433-547E-4A74-AFE6-91C16787824E}</Property>
 				<Property Name="DistPart[1].productName" Type="Str">NI-VISA Runtime 17.0</Property>
 				<Property Name="DistPart[1].upgradeCode" Type="Str">{8627993A-3F66-483C-A562-0D3BA3F267B1}</Property>
-				<Property Name="DistPart[2].flavorID" Type="Str"></Property>
-				<Property Name="DistPart[2].productID" Type="Str">{53155D24-3B89-4A72-8281-D5D48284AED8}</Property>
-				<Property Name="DistPart[2].productName" Type="Str">NI LabVIEW Run-Time Engine 2013</Property>
+				<Property Name="DistPart[2].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[2].productID" Type="Str">{E7F44619-A12B-407C-A4AE-9E85280EF3AB}</Property>
+				<Property Name="DistPart[2].productName" Type="Str">NI LabVIEW Run-Time Engine 2013 SP1 f6</Property>
+				<Property Name="DistPart[2].SoftDep[0].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[0].productName" Type="Str">NI LabVIEW 2013 SP1 Run-Time Engine Non-English Support.</Property>
+				<Property Name="DistPart[2].SoftDep[0].upgradeCode" Type="Str">{DDE96050-C9ED-4EAC-B310-5EA217776FEA}</Property>
+				<Property Name="DistPart[2].SoftDep[1].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[1].productName" Type="Str">NI ActiveX Container</Property>
+				<Property Name="DistPart[2].SoftDep[1].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
+				<Property Name="DistPart[2].SoftDep[10].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[10].productName" Type="Str">NI Error Reporting 2013</Property>
+				<Property Name="DistPart[2].SoftDep[10].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
+				<Property Name="DistPart[2].SoftDep[2].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[2].productName" Type="Str">NI System Web Server 13.0</Property>
+				<Property Name="DistPart[2].SoftDep[2].upgradeCode" Type="Str">{FCF64B73-B7D4-4971-8F11-24BAF7CC3E6C}</Property>
+				<Property Name="DistPart[2].SoftDep[3].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[3].productName" Type="Str">Math Kernel Libraries</Property>
+				<Property Name="DistPart[2].SoftDep[3].upgradeCode" Type="Str">{EA05DCF9-F239-4387-8904-04D678031F6B}</Property>
+				<Property Name="DistPart[2].SoftDep[4].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[4].productName" Type="Str">NI Logos 5.5</Property>
+				<Property Name="DistPart[2].SoftDep[4].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
+				<Property Name="DistPart[2].SoftDep[5].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[5].productName" Type="Str">NI TDM Streaming 2.4</Property>
+				<Property Name="DistPart[2].SoftDep[5].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
+				<Property Name="DistPart[2].SoftDep[6].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[6].productName" Type="Str">NI LabVIEW 2013 Web Server</Property>
+				<Property Name="DistPart[2].SoftDep[6].upgradeCode" Type="Str">{A66A5CC8-EEB5-4982-8B92-F591AF36060E}</Property>
+				<Property Name="DistPart[2].SoftDep[7].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[7].productName" Type="Str">NI LabVIEW 2013 Real-Time NBFifo</Property>
+				<Property Name="DistPart[2].SoftDep[7].upgradeCode" Type="Str">{76E4763E-0DC4-4195-BC50-084193FFA84B}</Property>
+				<Property Name="DistPart[2].SoftDep[8].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[8].productName" Type="Str">NI VC2008MSMs</Property>
+				<Property Name="DistPart[2].SoftDep[8].upgradeCode" Type="Str">{FDA3F8BB-BAA9-45D7-8DC7-22E1F5C76315}</Property>
+				<Property Name="DistPart[2].SoftDep[9].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[9].productName" Type="Str">NI VC2010MSMs</Property>
+				<Property Name="DistPart[2].SoftDep[9].upgradeCode" Type="Str">{EFBA6F9E-F934-4BD7-AC51-60CCA480489C}</Property>
+				<Property Name="DistPart[2].SoftDepCount" Type="Int">11</Property>
 				<Property Name="DistPart[2].upgradeCode" Type="Str">{A661D981-0A3B-4081-A5B5-1FAA03CFAF84}</Property>
 				<Property Name="DistPartCount" Type="Int">3</Property>
 				<Property Name="INST_author" Type="Str">University of Pittsburgh</Property>
 				<Property Name="INST_buildLocation" Type="Path">../builds/Installer</Property>
 				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
-				<Property Name="INST_buildSpecName" Type="Str">FP Installer</Property>
+				<Property Name="INST_buildSpecName" Type="Str">FrontPanel Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{66F9A383-992E-4114-B593-F754089D4721}</Property>
 				<Property Name="INST_productName" Type="Str">FrontPanel</Property>
-				<Property Name="INST_productVersion" Type="Str">4.50.1</Property>
+				<Property Name="INST_productVersion" Type="Str">4.50.3</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">13000000</Property>
+				<Property Name="InstSpecVersion" Type="Str">13008051</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Leiden Cryogenics</Property>
 				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
 				<Property Name="MSI_distID" Type="Str">{A09BC58E-3434-4E57-9C96-45E155A0D824}</Property>
@@ -172,15 +206,15 @@
 				<Property Name="RegDestCount" Type="Int">1</Property>
 				<Property Name="Source[0].dest" Type="Str">{66F9A383-992E-4114-B593-F754089D4721}</Property>
 				<Property Name="Source[0].File[0].dest" Type="Str">{66F9A383-992E-4114-B593-F754089D4721}</Property>
-				<Property Name="Source[0].File[0].name" Type="Str">FP.exe</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">FrontPanel.exe</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">FP</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">FrontPanel</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">FrontPanel</Property>
 				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
 				<Property Name="Source[0].File[0].tag" Type="Str">{E83A550C-BFD3-4B9C-BE18-9D2EBAB68107}</Property>
 				<Property Name="Source[0].FileCount" Type="Int">1</Property>
-				<Property Name="Source[0].name" Type="Str">FP Application</Property>
-				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/FP Application</Property>
+				<Property Name="Source[0].name" Type="Str">FrontPanel</Property>
+				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/FrontPanel Application</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
 				<Property Name="SourceCount" Type="Int">1</Property>
 			</Item>
