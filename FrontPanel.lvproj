@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="16008000">
+<Project Type="Project" LVVersion="13008000">
 	<Property Name="varPersistentID:{5669ECCA-9D0D-4271-BFEC-2C4C1902634C}" Type="Ref">/My Computer/src/1. Sources/DR FrontPanel.lvlib/Pressures-MG</Property>
 	<Property Name="varPersistentID:{C31E2868-5CF1-43D1-83AE-4B44DE928C70}" Type="Ref">/My Computer/src/1. Sources/DR FrontPanel.lvlib/Pressures-FP</Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -24,10 +24,6 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="user.lib" Type="Folder">
-				<Item Name="MGI Create Directory Chain Behavior Enum.ctl" Type="VI" URL="/&lt;userlib&gt;/_MGI/File/MGI Create Directory Chain Behavior Enum.ctl"/>
-				<Item Name="MGI Create Directory Chain.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/File/MGI Create Directory Chain.vi"/>
-			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
@@ -73,10 +69,13 @@
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="Qualified Name Array To Single String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Qualified Name Array To Single String.vi"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
-				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
-				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
+				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
+			</Item>
+			<Item Name="user.lib" Type="Folder">
+				<Item Name="MGI Create Directory Chain Behavior Enum.ctl" Type="VI" URL="/&lt;userlib&gt;/_MGI/File/MGI Create Directory Chain Behavior Enum.ctl"/>
+				<Item Name="MGI Create Directory Chain.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/File/MGI Create Directory Chain.vi"/>
 			</Item>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -148,32 +147,10 @@
 				<Property Name="DistPart[1].productID" Type="Str">{F9B5B433-547E-4A74-AFE6-91C16787824E}</Property>
 				<Property Name="DistPart[1].productName" Type="Str">NI-VISA Runtime 17.0</Property>
 				<Property Name="DistPart[1].upgradeCode" Type="Str">{8627993A-3F66-483C-A562-0D3BA3F267B1}</Property>
-				<Property Name="DistPart[2].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[2].productID" Type="Str">{7683E40C-81DF-43DC-BA19-872415406967}</Property>
-				<Property Name="DistPart[2].productName" Type="Str">NI LabVIEW Runtime 2016 f5</Property>
-				<Property Name="DistPart[2].SoftDep[0].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[0].productName" Type="Str">NI ActiveX Container</Property>
-				<Property Name="DistPart[2].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
-				<Property Name="DistPart[2].SoftDep[1].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[1].productName" Type="Str">NI System Web Server 16.0</Property>
-				<Property Name="DistPart[2].SoftDep[1].upgradeCode" Type="Str">{FCF64B73-B7D4-4971-8F11-24BAF7CC3E6C}</Property>
-				<Property Name="DistPart[2].SoftDep[2].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[2].productName" Type="Str">NI Logos 5.9</Property>
-				<Property Name="DistPart[2].SoftDep[2].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
-				<Property Name="DistPart[2].SoftDep[3].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[3].productName" Type="Str">NI TDM Streaming 17.0</Property>
-				<Property Name="DistPart[2].SoftDep[3].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
-				<Property Name="DistPart[2].SoftDep[4].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[4].productName" Type="Str">NI VC2008MSMs</Property>
-				<Property Name="DistPart[2].SoftDep[4].upgradeCode" Type="Str">{FDA3F8BB-BAA9-45D7-8DC7-22E1F5C76315}</Property>
-				<Property Name="DistPart[2].SoftDep[5].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[5].productName" Type="Str">NI VC2010MSMs</Property>
-				<Property Name="DistPart[2].SoftDep[5].upgradeCode" Type="Str">{EFBA6F9E-F934-4BD7-AC51-60CCA480489C}</Property>
-				<Property Name="DistPart[2].SoftDep[6].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[6].productName" Type="Str">NI Error Reporting 2017</Property>
-				<Property Name="DistPart[2].SoftDep[6].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
-				<Property Name="DistPart[2].SoftDepCount" Type="Int">7</Property>
-				<Property Name="DistPart[2].upgradeCode" Type="Str">{E7DBF016-365A-40B6-9526-B4D0B4830F51}</Property>
+				<Property Name="DistPart[2].flavorID" Type="Str"></Property>
+				<Property Name="DistPart[2].productID" Type="Str">{53155D24-3B89-4A72-8281-D5D48284AED8}</Property>
+				<Property Name="DistPart[2].productName" Type="Str">NI LabVIEW Run-Time Engine 2013</Property>
+				<Property Name="DistPart[2].upgradeCode" Type="Str">{A661D981-0A3B-4081-A5B5-1FAA03CFAF84}</Property>
 				<Property Name="DistPartCount" Type="Int">3</Property>
 				<Property Name="INST_author" Type="Str">University of Pittsburgh</Property>
 				<Property Name="INST_buildLocation" Type="Path">../builds/Installer</Property>
@@ -183,11 +160,11 @@
 				<Property Name="INST_productName" Type="Str">FrontPanel</Property>
 				<Property Name="INST_productVersion" Type="Str">4.50.1</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">16008024</Property>
+				<Property Name="InstSpecVersion" Type="Str">13000000</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Leiden Cryogenics</Property>
 				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
 				<Property Name="MSI_distID" Type="Str">{A09BC58E-3434-4E57-9C96-45E155A0D824}</Property>
-				<Property Name="MSI_osCheck" Type="Int">0</Property>
+				<Property Name="MSI_osCheck" Type="Int">4</Property>
 				<Property Name="MSI_upgradeCode" Type="Str">{CC45CFE8-4DD9-4CF5-BF76-52D4B396ED90}</Property>
 				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
 				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
