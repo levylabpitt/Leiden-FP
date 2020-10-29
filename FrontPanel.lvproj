@@ -147,7 +147,7 @@
 				<Property Name="Bld_version.build" Type="Int">20</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Bld_version.minor" Type="Int">50</Property>
-				<Property Name="Bld_version.patch" Type="Int">5</Property>
+				<Property Name="Bld_version.patch" Type="Int">6</Property>
 				<Property Name="Destination[0].destName" Type="Str">FrontPanel.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Application/FrontPanel Application.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
@@ -158,7 +158,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/src/1. Sources/FP.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C0D461D8-EFA0-43C4-8D35-1B940B951344}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{511DE215-D507-4D48-8019-C08B9588C09E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/src/1. Sources/FrontPanel.vi</Property>
@@ -228,7 +228,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">FrontPanel Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{66F9A383-992E-4114-B593-F754089D4721}</Property>
 				<Property Name="INST_productName" Type="Str">FrontPanel</Property>
-				<Property Name="INST_productVersion" Type="Str">4.50.5</Property>
+				<Property Name="INST_productVersion" Type="Str">4.50.6</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">13018020</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Leiden Cryogenics</Property>
