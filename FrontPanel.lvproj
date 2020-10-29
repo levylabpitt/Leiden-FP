@@ -112,9 +112,6 @@
 				<Item Name="Fit VI window to Largest Dec__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Fit VI window to Largest Dec__ogtk.vi"/>
 				<Item Name="String to 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/String to 1D Array__ogtk.vi"/>
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
-				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
-				<Item Name="Type Descriptor__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor__ogtk.ctl"/>
-				<Item Name="Search 1D Array (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (Boolean)__ogtk.vi"/>
 			</Item>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -128,6 +125,9 @@
 			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="../../Leiden-TC/src/1. Sources/Lib/Lib.llb/Type Descriptor Enumeration__ogtk.ctl"/>
+			<Item Name="Type Descriptor__ogtk.ctl" Type="VI" URL="../../Leiden-TC/src/1. Sources/Lib/Lib.llb/Type Descriptor__ogtk.ctl"/>
+			<Item Name="Search 1D Array (Boolean)__ogtk.vi" Type="VI" URL="../../Leiden-TC/src/1. Sources/Lib/Lib.llb/Search 1D Array (Boolean)__ogtk.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FrontPanel Application" Type="EXE">
@@ -144,7 +144,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{17B63870-595A-47C5-99D0-CDE5513E2F9A}</Property>
-				<Property Name="Bld_version.build" Type="Int">19</Property>
+				<Property Name="Bld_version.build" Type="Int">20</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Bld_version.minor" Type="Int">50</Property>
 				<Property Name="Bld_version.patch" Type="Int">5</Property>
@@ -158,7 +158,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/src/1. Sources/FP.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{BC2A1F34-4CB7-4A0C-9275-10B203839100}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C0D461D8-EFA0-43C4-8D35-1B940B951344}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/src/1. Sources/FrontPanel.vi</Property>
